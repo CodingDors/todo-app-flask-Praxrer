@@ -27,7 +27,7 @@ Your tasks for this exercise are outlined as follows:
 - Adding a new task to the list when the form is submitted.
 
 ## How to Run Your Application:
-Start the Flask Server: `flask run`
+Start the Flask Server: `python -m flask run`
 Access the application by navigating to localhost:5000 in your web browser.
 
 ## How to Run Tests:
