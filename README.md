@@ -30,7 +30,7 @@ Your tasks for this exercise are outlined as follows:
 
 ## 📘 How to Run Your Website:
 Start the Flask Server: `python -m flask run`
-Access the application by navigating to localhost:5000 in your web browser.
+Access the application by navigating to `localhost:5000` in your web browser.
 
 ## 🚀 How to Run Tests:
 1. Ensure your Flask server is not running, or it will occupy the terminal.
