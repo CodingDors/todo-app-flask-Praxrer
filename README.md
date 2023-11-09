@@ -5,13 +5,15 @@ This exercise is designed to be run entirely within a development container, whi
 
 Once you have completed your version of the ToDo app, you can compare it with our sample solution which is available in the answer folder.
 
-## Objective:
+You'll write only in `app.py` and `index.hmtl`. If you want to see the solution, check the `answer` folder.
+
+## 🎯 Objective:
 Build a Flask-based web application that allows users to:
 
 1. Enter a task using a form.
 2. View the tasks they've added to a global list that gets updated with each new entry.
 
-## Specific Tasks:
+## ✅ Specific Tasks:
 Your tasks for this exercise are outlined as follows:
 
 ### Set Up the HTML Form:
@@ -26,16 +28,27 @@ Your tasks for this exercise are outlined as follows:
 - Displaying the current list of tasks.
 - Adding a new task to the list when the form is submitted.
 
-## How to Run Your Application:
+## 📘 How to Run Your Website:
 Start the Flask Server: `python -m flask run`
 Access the application by navigating to localhost:5000 in your web browser.
 
-## How to Run Tests:
+## 🚀 How to Run Tests:
 1. Ensure your Flask server is not running, or it will occupy the terminal.
-2. In the root directory of the exercise, run `python test_app.py` in your terminal.
+2. In your terminal, run `python test_app.py`.
 
-### Viewing Test Results:
-The test script will provide output directly in the terminal.
-If the tests pass, you'll see a success message for each test case.
-If a test fails, you'll get feedback on what might be wrong.
-Remember, the tests are there to guide your development process. Don't hesitate to run them frequently to ensure each part of your application is functioning as it should.
+## 🤔 How to Submit:
+Once all the tests have completed:
+
+1. Stage Changes:
+  - View your changes in the Source Control view.
+  - Click on the + (plus) sign next to the files you wish to stage.
+2. Commit Changes:
+  - Enter a descriptive commit message.
+  - Press Ctrl + Enter (or Cmd + Enter on macOS) to commit the changes.
+3. Push Changes:
+  - Click on the ellipsis ... in the Source Control view.
+  - Select Push.
+4.Verify you code has passed
+
+## How the Project will Look Like
+![Local Image](project.png)
