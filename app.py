@@ -6,5 +6,7 @@ todo = []
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-  # TODO
-  return
+  # TODO: GET Method - Update this function to send the todo list to the html file
+  return render_template("index.html")
+
+  # TODO: POST Method - Update this function to add a new task to the list when the form is submitted
