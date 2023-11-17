@@ -10,3 +10,9 @@ def index():
   return render_template("index.html")
 
   # TODO: POST Method - Update this function to add a new task to the list when the form is submitted
+
+
+@app.route("/remove", methods=["POST"])
+def remove():
+  # TODO: POST Method - Update this function to remove task selected from the list
+  return redirect("/")
