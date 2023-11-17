@@ -8,7 +8,14 @@
         <h1>ToDo App</h1>
         <ul>
             {% for task in todo %}
-            <li>{{ task }}</li>
+            <li>
+                {{ task }}
+                <form action="/remove" method="post">
+                    <input type="hidden" name="task" value="{{task}}" />
+                    <button type="submit">Remove</button>
+                </form>
+            </li>
+            <br>
             {% endfor %}
         </ul>
         <br><br>
