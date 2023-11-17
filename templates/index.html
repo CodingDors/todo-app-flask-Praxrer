@@ -5,11 +5,18 @@
         <title>ToDo App</title>
     </head>
     <body>
-        <!-- TODO: Add an <ul> element where the tasks will appear as <li> elements. -->
-        
-        
-        <!-- TODO: Add an <input> field for users to type their tasks and a <button> to submit the task to the list. -->
-
-        
+        <h1>ToDo App</h1>
+        <ul>
+            {% for task in todo %}
+            <li>{{ task }}</li>
+            {% endfor %}
+        </ul>
+        <br><br>
+        <form action="/" method="post">
+            Add a New Task
+            <br><br>
+            <input type="text" name="task" placeholder="Add Task" />
+            <br><br>
+            <button type="submit">Submit</button>
     </body>
 </html>
