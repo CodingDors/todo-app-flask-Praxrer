@@ -12,8 +12,6 @@ Your task is to create a simple ToDo application that allows a user to:
 
 ## 📚 Starter Code
 The HTML code consists of two primary components:
-## 📚 Starter Code
-The HTML code consists of two primary components:
 
 1. **Task Display List**
    - **List Container**: Uses a `<ul>` element to create an unordered list. Each task in the application is represented as an individual list item (`<li>`) within this container.
